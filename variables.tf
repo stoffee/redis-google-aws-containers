@@ -18,9 +18,6 @@ variable "alternative_gcp_zone" {
   description = "The alternative location in which all GCP resources will be launched."
 }
 
-variable "namespace" {
-  description = "namespace"
-}
 variable "aws_access_key" {
   description = "access key"
 }
